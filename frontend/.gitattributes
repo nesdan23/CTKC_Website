@@ -1,0 +1,14 @@
+# Auto-detect text files and normalize to LF
+* text=auto
+
+# Ensure consistent LF endings for source code and configs
+*.js text eol=lf
+*.ts text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.sh text eol=lf
+
+# CRLF for Windows batch scripts if needed
+*.bat text eol=crlf
