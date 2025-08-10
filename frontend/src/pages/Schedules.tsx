@@ -25,7 +25,7 @@ const Schedules: React.FC = () => {
               </div>
               <div className="service-item">
                 <h3>Holy Communion Service</h3>
-                <p className="service-time">8:00 AM - 10:00 AM</p>
+                <p className="service-time">8:00 AM</p>
                 <p className='service-day'>2nd and 4th Sundays</p>
                 <p className='service-day'>First of Every Month</p>
                 <p>Celebration of the Holy Communion with prayers and worship.</p>

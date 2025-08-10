@@ -56,9 +56,9 @@ const Home: React.FC = () => {
           
           <div className="services-grid">
             <div className="service-card card">
-              <h3>Regular Service</h3>
+              <h3>Divine Service</h3>
               <p>1st & 3rd Sundays</p>
-              <p className="service-time">8:00 AM - 9:45 AM</p>
+              <p className="service-time">8:00 AM onwards</p>
               <p>Traditional worship service with choir, prayers, and inspirational message.</p>
               
             </div>
@@ -66,14 +66,14 @@ const Home: React.FC = () => {
             <div className="service-card card">
               <h3>Holy Communion Service</h3>
               <p>2nd & 4th Sundays</p>
-              <p className="service-time">8:00 AM - 10:00 AM</p>
+              <p className="service-time">8:00 AM onwards</p>
               <p>Holy Communion service with sharing of the Lord’s Supper in remembrance of Christ’s sacrifice.</p>
             </div>
             
             <div className="service-card card">
               <h3>First of Every Month</h3>
               <p>Holy Communion Service</p>
-              <p className="service-time">6:30 PM - 7:45 PM</p>
+              <p className="service-time">6:30 PM onwards </p>
               <p>Holy Communion service with scripture, prayers, and the sharing of the Lord’s Supper.</p>
             </div>
           </div>
@@ -113,7 +113,7 @@ const Home: React.FC = () => {
         .hero {
           position: relative;
           min-height: 70vh;
-          background: linear-gradient(135deg, #3D4A9E 0%, #4A3C74 100%);
+          background: linear-gradient(135deg, #111111ff 0%, #5265AD 100%);
           display: flex;
           align-items: center;
           overflow: hidden;
@@ -208,6 +208,14 @@ const Home: React.FC = () => {
           display: grid;
           grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
           gap: 2rem;
+        }
+
+        .service-grid p{
+          margin: 0;
+          color: #b08d57;
+          font-size: 0.98rem;
+          font-weight: 500;
+          text-align: center;
         }
 
         .service-time {

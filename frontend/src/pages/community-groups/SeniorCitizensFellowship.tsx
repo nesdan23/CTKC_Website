@@ -13,9 +13,21 @@ const SeniorCitizensFellowship: React.FC = () => {
       <section className="content-section">
         <div className="container">
           <div className="content-wrapper">
-            <p>Our Senior Citizens Fellowship meets on the third Thursday of each month at 2:00 PM, providing a special time for our mature members to gather for fellowship, learning, and mutual support.</p>
-            
-            <h2>Monthly Gatherings</h2>
+            <p>Our Church Senior Citizen Fellowships aim to provide a supportive environment for older adults in the church, allowing them to connect with one another, share life experiences, and grow in their faith. Our gatherings focus on building community and fostering spiritual growth.</p>
+            <p>Our Senior Citizen Fellowships often include a variety of activities, such as Bible study and prayer, Fellowship meals and Special events like celebrating birth days, wedding days etc. Our senior citizens Fellowship gather on every 1st Sunday after the morning service.</p>
+
+            <h2 className='content-section-title'>Main Focus</h2>
+            <ul className='ministry-list'>
+              <li><strong>Reduced isolation</strong> – Providing opportunities for social interaction and reducing feelings of loneliness.</li>
+              <li><strong>Spiritual growth</strong> – Deepening their faith through Bible study, prayer, and other spiritual activities.</li>
+              <li><strong>Community involvement</strong> – Encouraging continued engagement with the church and its activities.</li>
+              <li><strong>Sense of purpose</strong> – Providing opportunities to share their knowledge and experience with others.</li>
+              <li><strong>Living the Gospel</strong> – Being a living witness of the Gospel through both words and actions.</li>
+            </ul>
+            <h2 className='content-section-title'>Our Senior Citizens Fellowship Office bearers</h2>
+            <ul className='ministry-list'>
+              <li>Mr. Paul Mohan - Coordinator</li>
+            </ul>
             <p>Each meeting features a time of fellowship, prayer, and often includes guest speakers, musical performances, or special presentations. We also enjoy sharing meals together and celebrating birthdays and special occasions.</p>
             
             <h2>Activities & Programs</h2>
@@ -43,9 +55,7 @@ const SeniorCitizensFellowship: React.FC = () => {
             
             <h2>Celebrating Life Experience</h2>
             <p>We believe that our senior members are treasures of wisdom and experience. Our fellowship provides opportunities to share stories, offer guidance to younger generations, and continue growing in faith and friendship.</p>
-            
-            <h2>Transportation Available</h2>
-            <p>We understand that transportation can be a challenge. Please contact the church office if you need assistance getting to our meetings. We're committed to ensuring that all our senior members can participate.</p>
+
           </div>
         </div>
       </section>

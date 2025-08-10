@@ -132,6 +132,54 @@ a:hover {
   padding: 2rem 0 4rem;
 }
 
+.ministry-list {
+          list-style: none;
+          padding: 0;
+          margin: 1rem 0 2rem 0;
+        }
+
+        .ministry-list li {
+          position: relative;
+          padding-left: 1.5rem;
+          margin-bottom: 1.2rem;
+          font-size: 1.08rem;
+          color: #333;
+          line-height: 1.6;
+          background: none;
+        }
+
+        .ministry-list li::before {
+          content: '';
+          position: absolute;
+          left: 0;
+          top: 0.7em;
+          width: 8px;
+          height: 8px;
+          background: #E1C26C;
+          border-radius: 50%;
+          box-shadow: 0 0 0 2px #fff;
+        }
+
+        .disabled-link {
+          color: #aaa;
+          pointer-events: none;
+          cursor: not-allowed;
+          text-decoration: none;
+          color: #ffffff;
+          padding: 0.5rem 0.5rem;
+          display: block;
+        }
+        .disabled-link1 {
+          color: #aaa;
+          pointer-events: none;
+          cursor: not-allowed;
+          text-decoration: none;
+          color: #2B2B2B;
+          padding: 0.75rem 1.5rem;
+          display: block;
+          border-bottom: 1px solid #f0f0f0;
+        }
+
 /* Responsive Typography */
 @media (max-width: 768px) {
   h1 {

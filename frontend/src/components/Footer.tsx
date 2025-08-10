@@ -36,8 +36,7 @@ const Footer: React.FC = () => {
             <div className="footer-section">
               <h4>Contact Info</h4>
               <div className="contact-info">
-                <p><strong>Address:</strong><br />361, 6th Main Rd, Bahubali Nagar, Jalahalli,<br /> Bengaluru, Karnataka 560013</p>
-                <p><strong>Phone:</strong><br />(555) 123-4567</p>
+                <p><strong>Address:</strong><br />361, 6th Main Rd, Bahubali Nagar,<br /> Jalahalli, Bengaluru, Karnataka 560013</p>
                 <p><strong>Email:</strong><br />csictkc@gmail.com</p>
               </div>
             </div>

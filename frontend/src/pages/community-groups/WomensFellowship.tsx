@@ -13,8 +13,23 @@ const WomensFellowship: React.FC = () => {
       <section className="content-section">
         <div className="container">
           <div className="content-wrapper">
-            <p>Our Women's Fellowship meets on the second Saturday of each month at 10:00 AM, providing a welcoming space for women of all ages to connect, grow in faith, and support one another through life's journey.</p>
+            <p>Our Women’s Fellowship is a vital ministry within our diocese, aiming to unite, empower, and equip women for meaningful Christian witness. It offers a supportive platform for women to grow spiritually, nurturing the spiritual growth of families, children, and society, build lasting sisterhood, and engage in ministry and charitable service. They gather on the third Sunday of every month after the church service to share in fellowship and faith</p>
             
+            <h2 className='content-section-title'>Main Focus</h2>
+            <ul className='ministry-list'>
+              <li><strong>Nurturing faith</strong> – Encouraging women to grow spiritually and live as devoted disciples of Christ.</li>
+              <li><strong>Spiritual development</strong> – Organizing retreats, Bible studies and devotional gatherings to strengthen their faith.</li>
+              <li><strong>Unity in Christ</strong> – Promoting unity among women from all backgrounds within the church.</li>
+              <li><strong>Service and outreach</strong> – Participating in community outreach, charity work, and mission activities.</li>
+              <li><strong>Living the Gospel</strong> – Being a living witness of the Gospel through both words and actions.</li>
+            </ul>
+
+            <h2 className='content-section-title'>Our Women Fellowship Office bearers</h2>
+            <ul className='ministry-list'>
+              <li>Mrs. Usha Ramesh - Secretary</li>
+              <li>Mrs. Beryl Richard - Treasurer</li>
+            </ul>
+
             <h2>Our Gatherings</h2>
             <p>Each meeting includes prayer, Bible study, fellowship time, and often features guest speakers or special activities. We create an atmosphere where women can share their experiences, seek guidance, and build meaningful relationships.</p>
             

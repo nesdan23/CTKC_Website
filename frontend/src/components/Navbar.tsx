@@ -41,8 +41,10 @@ const Navbar: React.FC = () => {
                   <ul className="dropdown-menu">
                     <li><Link to="/about-us/our-church">Our Church</Link></li>
                     <li><Link to="/about-us/our-diocese">Our Diocese</Link></li>
-                    <li><Link to="/about-us/our-presbyter-in-charge">Our Presbyter In-Charge</Link></li>
+                    {/* <li><Link to="/about-us/our-presbyter-in-charge">Our Presbyter In-Charge</Link></li> */}
+                    <li><span className='disabled-link1'>Our Presbyter In-Charge</span></li>
                     <li><Link to="/about-us/our-pastorate-committee">Our Pastorate Committee</Link></li>
+                    <li><Link to="/about-us/our-team-leaders">Our Team Leaders</Link></li>
                   </ul>
                 </li>
                 
@@ -74,8 +76,10 @@ const Navbar: React.FC = () => {
                 </li>
                 
                 <li><Link to="/schedules" className={isActive('/schedules') ? 'active' : ''}>Schedules</Link></li>
-                <li><Link to="/news-and-events" className={isActive('/news-and-events') ? 'active' : ''}>News & Events</Link></li>
-                <li><Link to="/gallery" className={isActive('/gallery') ? 'active' : ''}>Gallery</Link></li>
+                {/* <li><Link to="/news-and-events" className={isActive('/news-and-events') ? 'active' : ''}>News & Events</Link></li>
+                <li><Link to="/gallery" className={isActive('/gallery') ? 'active' : ''}>Gallery</Link></li> */}
+                <li><span className="disabled-link">News & Events</span></li>
+                <li><span className="disabled-link">Gallery</span></li>
                 <li><Link to="/contact-us" className={isActive('/contact-us') ? 'active' : ''}>Contact Us</Link></li>
               </ul>
             </nav>
@@ -137,8 +141,11 @@ const Navbar: React.FC = () => {
               </ul>
             </li>
             <li><Link to="/schedules" onClick={() => setMobileMenuOpen(false)}>Schedules</Link></li>
-            <li><Link to="/news-and-events" onClick={() => setMobileMenuOpen(false)}>News & Events</Link></li>
-            <li><Link to="/gallery" onClick={() => setMobileMenuOpen(false)}>Gallery</Link></li>
+            {/* <li><Link to="/news-and-events" onClick={() => setMobileMenuOpen(false)}>News & Events</Link></li> */}
+            {/* <li><Link to="/gallery" onClick={() => setMobileMenuOpen(false)}>Gallery</Link></li> */}
+            {/* <li><Link to="/news-and-events" onClick={() => setMobileMenuOpen(false)}>News & Events</Link></li> */}
+            <li><span className="disabled-link">News & Events</span></li>
+            <li><span className="disabled-link">Gallery</span></li>
             <li><Link to="/contact-us" onClick={() => setMobileMenuOpen(false)}>Contact Us</Link></li>
           </ul>
         </nav>
@@ -146,7 +153,7 @@ const Navbar: React.FC = () => {
 
       <style>{`
         .navbar {
-          background-color: #3D4A9E;
+          background-color: #364085ff;
           color: white;
           position: sticky;
           top: 0;

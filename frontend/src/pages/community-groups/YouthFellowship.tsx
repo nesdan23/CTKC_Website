@@ -13,13 +13,25 @@ const YouthFellowship: React.FC = () => {
       <section className="content-section">
         <div className="container">
           <div className="content-wrapper">
-            <p>Our Youth Fellowship is a vibrant community for teenagers and young adults (ages 13-25) that meets every Friday at 6:00 PM. We create a safe, fun environment where young people can explore their faith, build lasting friendships, and develop leadership skills.</p>
-            
-            <h2>What We Do</h2>
+            <p>Our Youth Fellowship is a vibrant group of boys and girls (typically ages 15–35) who gather on 1st and 3rd Sundays after the morning service. They come together for praise & worship, share testimonies, conduct outreach programs and hear a meaningful message from one of our own or a guest believer. We guide them to pray for the needy, sick, missionaries and their work, our church, and for our youth spiritual life</p>
+
+            <h2 className='content-section-title'>Main Focus</h2>
+            <ul className='ministry-list'>
+              <li><strong>Cultivate faith</strong> – Aim to draw youth into a deeper relationship with Jesus and integrate them into the wider church family.</li>
+              <li><strong>Spiritual growth</strong> – Through regular worship, Bible study, prayer, and fellowship, they help young people mature in their faith and discover their gifts.</li>
+              <li><strong>Unity in Christ</strong> – Promoting unity among youths from all backgrounds within the church.</li>
+              <li><strong>Equip for service</strong> – They encourage spiritual leadership by providing opportunities for youth to lead worship, give messages, and serve during special services.</li>
+            </ul>
+
+            <h2 className='content-section-title'>Our Youth Fellowship Office bearers</h2>
+            <ul className='ministry-list'>
+              <li>Mr. Merwin Joel - Secretary</li>
+              <li>Ms. Nadiya Isaccson - Treasurer</li>
+            </ul>
             <div className="activities-grid">
               <div className="activity-card card">
                 <h3>Weekly Gatherings</h3>
-                <p>Every Friday evening includes worship, games, biblical teaching, and fellowship time. Our meetings are designed to be engaging, relevant, and fun while addressing real-life issues that young people face.</p>
+                <p>Each gathering includes worship, games, biblical teaching, and fellowship time. Our meetings are designed to be engaging, relevant, and fun while addressing real-life issues that young people face.</p>
               </div>
               
               <div className="activity-card card">
@@ -32,12 +44,10 @@ const YouthFellowship: React.FC = () => {
                 <p>Throughout the year, we organize retreats, camps, movie nights, and other special activities that strengthen bonds and create lasting memories.</p>
               </div>
             </div>
-            
-            <h2>Leadership Development</h2>
-            <p>We believe in empowering our youth to become leaders. Older teens have opportunities to mentor younger members, lead activities, and participate in planning events. This helps develop confidence, responsibility, and leadership skills.</p>
-            
-            <h2>Join Us</h2>
-            <p>All teenagers and young adults are welcome, regardless of their background or level of faith. Come as you are and discover a community that will support you, challenge you, and help you grow.</p>
+
+
+            <h2 className='content-section-title'>Join Us</h2>
+            <p>We warmly invite you to join us and discover the joy of walking with the Lord as part of our church’s next generation</p>
           </div>
         </div>
       </section>

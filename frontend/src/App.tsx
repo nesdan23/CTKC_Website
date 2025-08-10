@@ -25,6 +25,8 @@ import HistoryOurChurch from './pages/history/OurChurch'
 import Home from './pages/Home'
 import NewsAndEvents from './pages/NewsAndEvents'
 import Schedules from './pages/Schedules'
+import OurTeamLeaders from './pages/about-us/OurTeamLeaders'
+
 
 function App() {
   return (
@@ -35,8 +37,9 @@ function App() {
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/about-us/our-church" element={<OurChurch />} />
         <Route path="/about-us/our-diocese" element={<OurDiocese />} />
-        <Route path="/about-us/our-presbyter-in-charge" element={<OurPresbyterInCharge />} />
+        {/* <Route path="/about-us/our-presbyter-in-charge" element={<OurPresbyterInCharge />} /> */}
         <Route path="/about-us/our-pastorate-committee" element={<OurPastorateCommittee />} />
+        <Route path="/about-us/our-team-leaders" element={<OurTeamLeaders />} />
         <Route path="/history" element={<History />} />
         <Route path="/history/our-church" element={<HistoryOurChurch />} />
         <Route path="/history/former-presbyters" element={<FormerPresbyters />} />
@@ -51,8 +54,8 @@ function App() {
         <Route path="/community-groups/senior-citizens-fellowship" element={<SeniorCitizensFellowship />} />
         <Route path="/community-groups/choir" element={<Choir />} />
         <Route path="/schedules" element={<Schedules />} />
-        <Route path="/news-and-events" element={<NewsAndEvents />} />
-        <Route path="/gallery" element={<Gallery />} />
+        {/* <Route path="/news-and-events" element={<NewsAndEvents />} /> */}
+        {/* <Route path="/gallery" element={<Gallery />} /> */}
         <Route path="/contact-us" element={<ContactUs />} />
       </Routes>
     </Layout>

@@ -13,8 +13,82 @@ const Choir: React.FC = () => {
       <section className="content-section">
         <div className="container">
           <div className="content-wrapper">
-            <p>The Grace Church Choir is an integral part of our worship services, leading the congregation in praise and enhancing our spiritual experience through music. We welcome singers of all skill levels who have a heart for worship.</p>
-            
+            <p>Our Church Choir has been formed in March 2013 with the support and guidance of <strong>Mr. Job Jesudian</strong>, Director of Shepherd’s symphony and dedicated by <strong>Rev. Jacob Ravindran</strong>. Our Choir plays a vital role in leading the congregation in worship and enriching the spiritual life of the church through music.</p>
+            <p>Rooted in the tradition of the Church of South India, our choir is dedicated to offering heartfelt praise to God through hymns, Lyrics, and special songs during Sunday services and special occasions.</p>
+
+            <h2 className='content-section-title'>Main Focus</h2>
+            <ul className='ministry-list'>
+              <li><strong>Leading Worship Music</strong> - Support the congregation in singing hymns, gospel songs and liturgical music during church service.</li>
+              <li><strong>Music Selection and Planning</strong> - Choosing appropriate songs aligned with the liturgical calendar and sermon theme.</li>
+              <li><strong>Rehearsals</strong> - Regular choir rehearsals to learn new songs and prepare for services.</li>
+              <li><strong>Preserve Tradition</strong> - Uphold the rich musical heritage of the CSI Church while embracing new expressions of worship.</li>
+              <li><strong>Glorify God</strong> - Use their voices and talents to honor and glorify God.</li>
+              <li><strong>Nurturing the Fellowship</strong> - Build unity and fellowship among members through music.</li>
+            </ul> 
+
+            <h2 className="content-section-title">Our Choir Members</h2>
+            <div className="choir-grid">
+              <div className="choir-card card">
+                <h4>Dr. Evangelin Vincilin</h4>
+                <p>In-Charge</p>
+              </div>
+              <div className="choir-card card">
+                <h4>Mr. Merwin Joel</h4>
+                <p>Organist</p>
+              </div>
+              <div className="choir-card card">
+                <h4>Mr. Nesan Daniel</h4>
+                <p>Associate Organist</p>
+              </div>
+              <div className="choir-card card">
+                <h4>Mrs. Augusta Arul</h4>
+                <p>Member</p>
+              </div>
+              <div className="choir-card card">
+                <h4>Mrs. Gnana Jeeva Hebu</h4>
+                <p>Member</p>
+              </div>
+              <div className="choir-card card">
+                <h4>Ms. Gracy Milchial</h4>
+                <p>Member</p>
+              </div>
+              <div className="choir-card card">
+                <h4>Mrs. Irene George</h4>
+                <p>Member</p>
+              </div>
+              <div className="choir-card card">
+                <h4>Mrs. Irene Jebin</h4>
+                <p>Member</p>
+              </div>
+              <div className="choir-card card">
+                <h4>Ms. Jemimah</h4>
+                <p>Member</p>
+              </div>
+              <div className="choir-card card">
+                <h4>Mrs. Jessie John</h4>
+                <p>Member</p>
+              </div>
+              <div className="choir-card card">
+                <h4>Mrs. Lizzy Paul</h4>
+                <p>Member</p>
+              </div>
+              <div className="choir-card card">
+                <h4>Mr. Melwyn John</h4>
+                <p>Member</p>
+              </div>
+              <div className="choir-card card">
+                <h4>Mrs. Merlin Wilson</h4>
+                <p>Member</p>
+              </div>
+              <div className="choir-card card">
+                <h4>Mr. Ponraj</h4>
+                <p>Member</p>
+              </div>
+              <div className="choir-card card">
+                <h4>Mrs. Usha Ramesh</h4>
+                <p>Member</p>
+              </div>
+            </div>
             <h2>Rehearsals & Performances</h2>
             <p>Our choir rehearses every Saturday at 4:00 PM in the church sanctuary. We perform during Sunday morning worship services and special events throughout the year, including Christmas and Easter celebrations.</p>
             
@@ -70,6 +144,35 @@ const Choir: React.FC = () => {
         .performance-card h3 {
           color: #3D4A9E;
           margin-bottom: 1rem;
+        }
+
+        .choir-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+          gap: 1.5rem;
+          margin: 2rem 0;
+
+        }
+        .choir-card {
+          background: #fff;
+          border-radius: 10px;
+          box-shadow: 0 2px 8px rgba(61,74,158,0.07);
+          padding: 1.2rem 1rem;
+          text-align: center;
+          transition: box-shadow 0.2s;
+        }
+        .choir-card h4 {
+          margin: 0 0 0.5rem 0;
+          color: #3D4A9E;
+          font-size: 1.08rem;
+          font-weight: 600;
+        }
+        .choir-card p {
+          margin: 0;
+          color: #b08d57;
+          font-size: 0.98rem;
+          font-weight: 500;
+          text-align: center;
         }
 
         @media (max-width: 768px) {

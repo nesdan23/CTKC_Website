@@ -22,111 +22,83 @@ const OurPastorateCommittee: React.FC = () => {
             <h2 className="content-section-title">Our Pastorate committee Members for the Triennium 2024- 2027</h2>
             <div className="committee-grid">
               <div className="committee-member card">
-                <img src="/samplePortrait.jpg" alt="Rev. Christy Gnanadasan" className="committee-photo" />
-                <h3>Rev. Christy Gnanadasan</h3>
-                <p className="member-role">Presbyter In-Charge/Chairperson</p>
+                {/* <img src="/samplePortrait.jpg" alt="Rev. Christy Gnanadasan" className="committee-photo" /> */}
+                <div className="member-content">
+                  <h3>Rev. Christy Gnanadasan</h3>
+                  <p className="member-role">Presbyter In-Charge/Chairperson</p>
+                </div>
               </div>
               
               <div className="committee-member card">
-                <h3>Mr. Paul Mohan</h3>
-                <p className="member-role">Honarable Secretary</p>
+                <div className="member-content">
+                  <h3>Mr. Paul Mohan</h3>
+                  <p className="member-role">Honarable Secretary</p>
+                </div>
               </div>
               
               <div className="committee-member card">
-                <h3>Mr. D Ramesh</h3>
-                <p className="member-role">Honarable Treasurer</p>
+                <div className="member-content">
+                  <h3>Mr. D Ramesh</h3>
+                  <p className="member-role">Honarable Treasurer</p>
+                </div>
               </div>
 
               <div className="committee-member card">
-                <h3>Mr. D Hebu</h3>
-                <p className="member-role">Diocesan Council Member</p>
+                <div className="member-content">
+                  <h3>Mr. D Hebu</h3>
+                  <p className="member-role">Diocesan Council Member</p>
+                </div>
               </div>
 
               <div className="committee-member card">
-                <h3>Mr. R Prabhu</h3>
-                <p className="member-role">Diocesan Council Member - Substitute</p>
+                <div className="member-content">
+                  <h3>Mr. R Prabhu</h3>
+                  <p className="member-role">Diocesan Council Member - Substitute</p>
+                </div>
               </div>
               
               <div className="committee-member card">
-                <h3>Mr. Daniel Sathiyaraj</h3>
-                <p className="member-role">Steward</p>
+                <div className="member-content">
+                  <h3>Mr. Daniel Sathiyaraj</h3>
+                  <p className="member-role">Steward</p>
+                </div>
               </div>
 
               <div className="committee-member card">
-                <h3>Mrs. Ebenzer Augusta</h3>
-                <p className="member-role">Member</p>
+                <div className="member-content">
+                  <h3>Mrs. Ebenzer Augusta</h3>
+                  <p className="member-role">Member</p>
+                </div>
               </div>
 
               <div className="committee-member card">
-                <h3>Mrs. Sumathi</h3>
-                <p className="member-role">Area Council Member</p>
+                <div className="member-content">
+                  <h3>Mrs. Sumathi</h3>
+                  <p className="member-role">Area Council Member</p>
+                </div>
               </div>
 
               <div className="committee-member card">
-                <h3>Mrs. Swarnalatha</h3>
-                <p className="member-role">Area Council Member - Substitute</p>
+                <div className="member-content">
+                  <h3>Mrs. Swarnalatha</h3>
+                  <p className="member-role">Area Council Member - Substitute</p>
+                </div>
               </div>
 
               <div className="committee-member card">
-                <h3>Mr. Moses Jebakumar</h3>
-                <p className="member-role">Youth's Representative</p>
+                <div className="member-content">
+                  <h3>Mr. Moses Jebakumar</h3>
+                  <p className="member-role">Youth's Representative</p>
+                </div>
               </div>
 
               <div className="committee-member card">
-                <h3>Ms. Gracy Milchial</h3>
-                <p className="member-role">Youth's Representative</p>
+                <div className="member-content">
+                  <h3>Ms. Gracy Milchial</h3>
+                  <p className="member-role">Youth's Representative</p>
+                </div>
               </div>
             </div>
-
-            <h2 className="content-section-title">Our Team Leaders</h2>
-            <div className="team-leader-grid">
-              <div className="team-leader card">
-                <img src="/samplePortrait.jpg" alt="Rev. Christy Gnanadasan" className="team-leader-photo" />
-                <h3>Mrs. Sudha Babu</h3>
-                <p className="member-role">Sunday School</p>
-              </div>
-              
-              <div className="team-leader card">
-                <h3>Mr. Merwin Joel</h3>
-                <p className="member-role">Youth Fellowship</p>
-              </div>
-
-              <div className="team-leader card">
-                <h3>Mrs. Usha Ramesh</h3>
-                <p className="member-role">Women's Fellowship</p>
-              </div>
-
-              <div className="team-leader card">
-                <h3>Mr. Paul Mohan</h3>
-                <p className="member-role">Senior Citizen's Fellowship</p>
-              </div>
-
-              <div className="team-leader card">
-                <h3>Dr. Evangelin Geetha</h3>
-                <p className="member-role">Choir Team</p>
-              </div>
-
-              <div className="team-leader card">
-                <h3>Mr. R Prabhu</h3>
-                <p className="member-role">Media Team</p>
-              </div>
-
-              <div className="team-leader card">
-                <h3>Mr. Ruthvik Daniel Rajan K R</h3>
-                <p className="member-role">Media Team</p>
-              </div>
-
-              <div className="team-leader card">
-                <h3>Mr. Nesan Daniel A</h3>
-                <p className="member-role">Media Team</p>
-              </div>
-
-              <div className="team-leader card">
-                <h3>Mr. Hebu</h3>
-                <p className="member-role">Decoration Team</p>
-              </div>
-            </div>
-
           </div>
         </div>
       </section>
@@ -145,14 +117,7 @@ const OurPastorateCommittee: React.FC = () => {
 
         .committee-grid {
           display: grid;
-          grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-          gap: 2rem;
-          margin: 2rem 0;
-        }
-
-        .team-leader-grid {
-          display: grid;
-          grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+          grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
           gap: 2rem;
           margin: 2rem 0;
         }
@@ -162,33 +127,38 @@ const OurPastorateCommittee: React.FC = () => {
           margin-bottom: 0.5rem;
         }
 
-        .committee-photo {
-          width: 100px;
-          height: 100px;
-          object-fit: cover;
-          border-radius: 50%;
-          margin-bottom: 1rem;
-          display: block;
-          margin-left: auto;
-          margin-right: auto;
-          box-shadow: 0 2px 8px rgba(61, 74, 158, 0.08);
-      }
+        .member-role {
+           color: #E1C26C;
+            font-weight: 600;
+            margin-bottom: 1rem;     
+             }
 
-      .team-leader-photo {
-          width: 100px;
-          height: 100px;
-          object-fit: cover;
-          border-radius: 50%;
-          margin-bottom: 1rem;
-          display: block;
-          margin-left: auto;
-          margin-right: auto;
-          box-shadow: 0 2px 8px rgba(61, 74, 158, 0.08);
-}
+                .committee-member.card {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          min-height: 140px;
+          text-align: center;
+        }
+
+        .member-content {
+          width: 100%;
+        }
+
+        .committee-member h3 {
+          color: #3D4A9E;
+          margin-bottom: 0.5rem;
+          text-align: center;
+          font-size: 1.18rem;
+          font-weight: 700;
+        }
+
         .member-role {
           color: #E1C26C;
           font-weight: 600;
-          margin-bottom: 1rem;
+          margin-bottom: 0;
+          text-align: center;
+          font-size: 1rem;
         }
 
         @media (max-width: 768px) {
