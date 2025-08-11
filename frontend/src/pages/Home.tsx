@@ -5,6 +5,7 @@ const Home: React.FC = () => {
   return (
     <>
       <div className="hero">
+        {/* <img src="/public/Altar.JPG" alt="church altar" /> */}
         <div className="hero-overlay"></div>
         <div className="hero-content">
           <div className="container">
@@ -112,7 +113,7 @@ const Home: React.FC = () => {
       <style>{`
         .hero {
           position: relative;
-          min-height: 70vh;
+          min-height: 87vh;
           background: linear-gradient(135deg, #111111ff 0%, #5265AD 100%);
           display: flex;
           align-items: center;
@@ -126,7 +127,7 @@ const Home: React.FC = () => {
           left: 0;
           right: 0;
           bottom: 0;
-          background: url('https://images.pexels.com/photos/161901/paris-sunset-france-monument-161901.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') center/cover;
+          background: url('/Altar.JPG') center/cover;
           opacity: 0.3;
         }
 

@@ -19,15 +19,15 @@ const Schedules: React.FC = () => {
               <h2>Sunday Services</h2>
               <div className="service-item">
                 <h3>Divine Services</h3>
-                <p className="service-time">8:00 AM - 9:45 AM</p>
+                <p className="service-time">8:00 AM onwards</p>
                 <p className='service-day'>1st and 3rd Sundays</p>
                 <p>Regular Sunday worship service with choir, prayers, and inspiring message.</p>
               </div>
               <div className="service-item">
                 <h3>Holy Communion Service</h3>
-                <p className="service-time">8:00 AM</p>
+                <p className="service-time">8:00 AM onwards</p>
                 <p className='service-day'>2nd and 4th Sundays</p>
-                <p className='service-day'>First of Every Month</p>
+                <p className='service-day'>First of Every Month (6:30 PM onwards)</p>
                 <p>Celebration of the Holy Communion with prayers and worship.</p>
               </div>
               
@@ -63,17 +63,17 @@ const Schedules: React.FC = () => {
               </div>
               <div className="service-item">
                 <h3>Youth Fellowship</h3>
-                <p className="service-time">2nd and 4th Sundays - After the service.</p>
+                <p className="service-time">2nd and 4th Sundays - After the service</p>
                 <p>Gathering for the youth to gather, pray, and study together.</p>
               </div>
               <div className="service-item">
                 <h3>Women's Fellowship</h3>
-                <p className="service-time">1st and 3rd Sundays - After the service.</p>
+                <p className="service-time">1st and 3rd Sundays - After the service</p>
                 <p>Gathering for women to fellowship, pray, and study together.</p>
               </div>
               <div className="service-item">
                 <h3>Senior Citizens Fellowship</h3>
-                <p className="service-time">Every 1st Sunday - After the service.</p>
+                <p className="service-time">Every 1st Sunday - After the service</p>
                 <p>Gathering for our senior members with fellowship and activities.</p>
               </div>
               <div className="service-item">
