@@ -81,19 +81,8 @@ const ContactUs: React.FC = () => {
                   </div>
                   
                   <div className="contact-item">
-                    <h3>Phone</h3>
-                    <p>(555) 123-4567</p>
-                  </div>
-                  
-                  <div className="contact-item">
                     <h3>Email</h3>
-                    <p>csictkc@gmail.com</p>
-                  </div>
-                  
-                  <div className="contact-item">
-                    <h3>Office Hours</h3>
-                    <p>Monday - Friday: 7:00 PM - 8:30 PM<br />
-                    Sunday: 8:00 AM - 12:00 PM</p>
+                    <p>csictkc.jalahalli@gmail.com</p>
                   </div>
                 </div>
               </div>

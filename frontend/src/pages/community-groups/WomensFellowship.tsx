@@ -26,8 +26,11 @@ const WomensFellowship: React.FC = () => {
 
             <h2 className='content-section-title'>Our Women Fellowship Office bearers</h2>
             <ul className='ministry-list'>
+              <li>Mrs. Rainka Christy - President</li>
               <li>Mrs. Usha Ramesh - Secretary</li>
               <li>Mrs. Beryl Richard - Treasurer</li>
+              <li>Mrs. Anasuya - Member</li>
+              <li>Mrs. Preethi - Member</li>
             </ul>
 
             <h2>Our Gatherings</h2>
@@ -57,7 +60,7 @@ const WomensFellowship: React.FC = () => {
             </div>
             
             <h2>All Women Welcome</h2>
-            <p>Whether you're a new mother, working professional, student, or retiree, you'll find a place in our fellowship. We celebrate the diversity of women's experiences and believe that each person brings unique gifts and perspectives to our community.</p>
+            <p>Whether you're a new mother, working professional, or retiree, you'll find a place in our fellowship. We celebrate the diversity of women's experiences and believe that each person brings unique gifts and perspectives to our community.</p>
           </div>
         </div>
       </section>

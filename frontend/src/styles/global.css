@@ -88,11 +88,23 @@ a:hover {
 
 .btn-secondary {
   background-color: transparent;
-  color: #adadb3;
+  color: #ffffff;
+  border: 2px solid #3D4A9E;
+}
+
+.btn-secondary1 {
+  background-color: transparent;
+  color: #010101;
   border: 2px solid #3D4A9E;
 }
 
 .btn-secondary:hover {
+  background-color: #3D4A9E;
+  color: white;
+  transform: translateY(-2px);
+}
+
+.btn-secondary1:hover {
   background-color: #3D4A9E;
   color: white;
   transform: translateY(-2px);
@@ -160,15 +172,6 @@ a:hover {
           box-shadow: 0 0 0 2px #fff;
         }
 
-        .disabled-link {
-          color: #aaa;
-          pointer-events: none;
-          cursor: not-allowed;
-          text-decoration: none;
-          color: #ffffff;
-          padding: 0.5rem 0.5rem;
-          display: block;
-        }
         .disabled-link1 {
           color: #aaa;
           pointer-events: none;

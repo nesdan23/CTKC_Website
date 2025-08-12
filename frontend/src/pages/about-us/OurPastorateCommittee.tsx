@@ -38,21 +38,21 @@ const OurPastorateCommittee: React.FC = () => {
               
               <div className="committee-member card">
                 <div className="member-content">
-                  <h3>Mr. D Ramesh</h3>
+                  <h3>Mr. Ramesh</h3>
                   <p className="member-role">Honarable Treasurer</p>
                 </div>
               </div>
 
               <div className="committee-member card">
                 <div className="member-content">
-                  <h3>Mr. D Hebu</h3>
+                  <h3>Mr. Hebu</h3>
                   <p className="member-role">Diocesan Council Member</p>
                 </div>
               </div>
 
               <div className="committee-member card">
                 <div className="member-content">
-                  <h3>Mr. R Prabhu</h3>
+                  <h3>Mr. Prabhu</h3>
                   <p className="member-role">Diocesan Council Member - Substitute</p>
                 </div>
               </div>

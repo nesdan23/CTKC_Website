@@ -55,10 +55,14 @@ const Navbar: React.FC = () => {
                   <ul className="dropdown-menu">
                     <li><Link to="/history/our-church">Our Church</Link></li>
                     <li><Link to="/history/former-presbyters">Former Presbyters</Link></li>
-                    <li><Link to="/history/former-secretaries">Former Secretaries</Link></li>
+                    {/* <li><Link to="/history/former-secretaries">Former Secretaries</Link></li>
                     <li><Link to="/history/former-treasurers">Former Treasurers</Link></li>
                     <li><Link to="/history/former-pc-members">Former PC Members</Link></li>
-                    <li><Link to="/history/former-sextons">Former Sextons</Link></li>
+                    <li><Link to="/history/former-sextons">Former Sextons</Link></li> */}
+                    <li><span className="disabled-link1">Former Secretaries</span></li>
+                    <li><span className="disabled-link1">Former Treasurers</span></li>
+                    <li><span className="disabled-link1">Former PC Members</span></li>
+                    <li><span className="disabled-link1">Former Sextons</span></li>
                   </ul>
                 </li>
                 
@@ -119,10 +123,10 @@ const Navbar: React.FC = () => {
               <ul className={`mobile-dropdown ${activeDropdown === 'history' ? 'active' : ''}`}>
                 <li><Link to="/history/our-church" onClick={() => setMobileMenuOpen(false)}>Our Church</Link></li>
                 <li><Link to="/history/former-presbyters" onClick={() => setMobileMenuOpen(false)}>Former Presbyters</Link></li>
-                <li><Link to="/history/former-secretaries" onClick={() => setMobileMenuOpen(false)}>Former Secretaries</Link></li>
-                <li><Link to="/history/former-treasurers" onClick={() => setMobileMenuOpen(false)}>Former Treasurers</Link></li>
+                {/* <li><Link to="/history/former-secretaries" onClick={() => setMobileMenuOpen(false)}>Former Secretaries</Link></li> */}
+                {/* <li><Link to="/history/former-treasurers" onClick={() => setMobileMenuOpen(false)}>Former Treasurers</Link></li>
                 <li><Link to="/history/former-pc-members" onClick={() => setMobileMenuOpen(false)}>Former PC Members</Link></li>
-                <li><Link to="/history/former-sextons" onClick={() => setMobileMenuOpen(false)}>Former Sextons</Link></li>
+                <li><Link to="/history/former-sextons" onClick={() => setMobileMenuOpen(false)}>Former Sextons</Link></li> */}
               </ul>
             </li>
             <li>

@@ -5,7 +5,6 @@ const Home: React.FC = () => {
   return (
     <>
       <div className="hero">
-        {/* <img src="/public/Altar.JPG" alt="church altar" /> */}
         <div className="hero-overlay"></div>
         <div className="hero-content">
           <div className="container">
@@ -93,17 +92,8 @@ const Home: React.FC = () => {
             </div>
             
             <div className="anniversary-stats">
-              <div className="stat-item">
-                <span className="stat-number">50</span>
-                <span className="stat-label">Years of Service</span>
-              </div>
-              <div className="stat-item">
-                <span className="stat-number">1000+</span>
-                <span className="stat-label">Lives Touched</span>
-              </div>
-              <div className="stat-item">
-                <span className="stat-number">15</span>
-                <span className="stat-label">Community Programs</span>
+              <div className="anniversary-logo">
+                <img src="/Clogo.png" alt="Church Logo" className="logo-img" />
               </div>
             </div>
           </div>
@@ -128,7 +118,7 @@ const Home: React.FC = () => {
           right: 0;
           bottom: 0;
           background: url('/Altar.JPG') center/cover;
-          opacity: 0.3;
+          opacity: 0.8;
         }
 
         .hero-overlay {
@@ -283,6 +273,25 @@ const Home: React.FC = () => {
             text-align: center;
           }
           
+          .anniversary-logo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            min-height: 180px;
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 2rem;
+          }
+
+          .logo-img {
+            max-width: 180px;
+            max-height: 120px;
+            width: auto;
+            height: auto;
+            object-fit: contain;
+          }
+            
           .anniversary-content {
             grid-template-columns: 1fr;
             gap: 2rem;

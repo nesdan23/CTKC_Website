@@ -16,49 +16,90 @@ const History: React.FC = () => {
           <div className="content-grid">
             <div className="main-content">
               <div className="history-intro">
-                <p>Grace Church was founded in 1974 with a vision to create a welcoming community where people could grow in faith, find fellowship, and serve others. Over the past five decades, we have witnessed God's faithfulness through seasons of growth, challenge, and celebration.</p>
+                <p>CSI Christ the King Church, Jalahalli, has a rich and inspiring history rooted in faith, perseverance, and community spirit. From humble beginnings in 1975, we have grown into a thriving congregation, blessed with God’s grace every step of the way.</p>
               </div>
               
               <div className="timeline">
                 <div className="timeline-item">
-                  <div className="timeline-year">1974</div>
+                  <div className="timeline-year">1975</div>
                   <div className="timeline-content">
                     <h3>Church Founded</h3>
-                    <p>Grace Church was established with a small but dedicated group of founding members who shared a vision for community ministry.</p>
+                    <p>On 15th August 1975, a small group of 30 families began gathering for worship in a classroom within Bharat Electronics Limited (BEL). Originally called CSI Tamil Church, this marked the start of a journey rooted in God’s grace.</p>
                   </div>
                 </div>
                 
                 <div className="timeline-item">
-                  <div className="timeline-year">1980</div>
+                  <div className="timeline-year">1976</div>
                   <div className="timeline-content">
-                    <h3>First Building Expansion</h3>
-                    <p>As our congregation grew, we expanded our facilities to include additional classrooms and a larger fellowship hall.</p>
+                    <h3>Becoming a Pastorate</h3>
+                    <p>Formally accredited as a Pastorate in February 1976 under Bishop Rt. Rev. K.E. Gill, the church began regular Sunday services that have continued faithfully to this day.</p>
                   </div>
                 </div>
                 
                 <div className="timeline-item">
-                  <div className="timeline-year">1995</div>
+                  <div className="timeline-year">1977 - 1980</div>
                   <div className="timeline-content">
-                    <h3>Community Outreach Programs</h3>
-                    <p>Launched our first major community outreach initiatives, including food pantry and youth programs.</p>
+                    <h3>Land Purchased</h3>
+                    <p>Two plots of land were purchased in Jalahalli — the first in 1977 (50 ft × 120 ft) and the second in 1980 (34 ft × 47 ft) — to establish a permanent place of worship.</p>
                   </div>
                 </div>
                 
                 <div className="timeline-item">
-                  <div className="timeline-year">2010</div>
+                  <div className="timeline-year">1983</div>
                   <div className="timeline-content">
-                    <h3>Sanctuary Renovation</h3>
-                    <p>Completed a major renovation of our sanctuary, improving accessibility and updating our worship space.</p>
-                  </div>
+                    <h3>First Church Building Dedicated</h3>
+                    <p>Under the leadership of Rev. Jayapal Daniel, a modest 28 ft × 40 ft church was built and dedicated on 21st August 1983 by Bishop Rt. Rev. Dr. C.D. Jathanna.</p>                  </div>
                 </div>
                 
                 <div className="timeline-item">
-                  <div className="timeline-year">2024</div>
+                  <div className="timeline-year">1989</div>
                   <div className="timeline-content">
-                    <h3>50th Anniversary Celebration</h3>
-                    <p>Celebrating five decades of faithful service and looking forward to the future God has in store for us.</p>
+                    <h3>Renamed CSI Christ the King Church</h3>
+                    <p>On 15th August 1989, the church was renamed to CSI Christ the King Church as the congregation grew to 55 families.</p>                  
                   </div>
                 </div>
+
+                <div className="timeline-item">
+                  <div className="timeline-year">1991 - 1998</div>
+                  <div className="timeline-content">
+                    <h3>Expansion & New Facilities</h3>
+                    <ul className='ministry-list'>
+                      <li><strong>6th September 1991:</strong> A third plot (30 ft × 40 ft) purchased.</li>
+                      <li><strong>18th December 1994:</strong> Enlarged altar and renovated structure re-dedicated by Bishop Rt. Rev. W.V. Karl.</li>
+                      <li><strong>13th December 1998:</strong> Sunday School Hall dedicated by Bishop Rt. Rev. Dr. Vasanta Kumar.</li>
+                    </ul>
+                    <p>On 15th August 1989, the church was renamed to CSI Christ the King Church as the congregation grew to 55 families.</p>                  
+                  </div>
+                </div>
+
+                <div className="timeline-item">
+                  <div className="timeline-year">2003</div>
+                  <div className="timeline-content">
+                    <h3>Bell Tower & Additional Rooms</h3>
+                    <p>A Bell Tower, Office Room, and Youth Fellowship Room were completed and dedicated on 18th May 2003 by Mr. King Das, Diocesan Treasurer.</p>
+                  </div>
+                </div>
+
+                <div className="timeline-item">
+                  <div className="timeline-year">2017 – 2018</div>
+                  <div className="timeline-content">
+                    <h3>Rebuilding for the Future</h3>
+                    <p>With the old mud-walled, asbestos-roofed building deteriorating, the Pastorate Committee, led by Rev. Christy Raja Kumar, initiated the construction of a new church.</p>
+                    <ul className='ministry-list'>
+                      <li><strong>1st November 2017:</strong> Foundation stone laid by Bishop Rt. Rev. Dr. P.K. Samuel.</li>
+                      <li><strong>29th July 2018:</strong> Beautiful new church dedicated by Bishop Dr. P.K. Samuel, equipped with modern facilities: audio system, projector, live-stream camera, high-quality lighting, CCTV, power backup, seating, choir benches, Sunday School hall, and sexton house.</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div className="timeline-item">
+                  <div className="timeline-year">Today</div>
+                  <div className="timeline-content">
+                    <h3>A Thriving Congregation</h3>
+                    <p>Now home to over 100 families, CSI Christ the King Church stands as a beacon of God’s love in Jalahalli — a place of worship, fellowship, and service, looking ahead with faith and hope.</p>                  
+                  </div>
+                </div>
+
               </div>
             </div>
             
@@ -68,10 +109,10 @@ const History: React.FC = () => {
                 <ul className="link-list">
                   <li><Link to="/history/our-church">Our Church History</Link></li>
                   <li><Link to="/history/former-presbyters">Former Presbyters</Link></li>
-                  <li><Link to="/history/former-secretaries">Former Secretaries</Link></li>
+                  {/* <li><Link to="/history/former-secretaries">Former Secretaries</Link></li>
                   <li><Link to="/history/former-treasurers">Former Treasurers</Link></li>
                   <li><Link to="/history/former-pc-members">Former PC Members</Link></li>
-                  <li><Link to="/history/former-sextons">Former Sextons</Link></li>
+                  <li><Link to="/history/former-sextons">Former Sextons</Link></li> */}
                 </ul>
               </div>
             </div>

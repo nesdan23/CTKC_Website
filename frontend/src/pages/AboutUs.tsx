@@ -7,7 +7,7 @@ const AboutUs: React.FC = () => {
       <div className="page-header">
         <div className="container">
           <h1>About Us</h1>
-          <p className="page-subtitle">Learning about Grace Church and our community</p>
+          <p className="page-subtitle">Learning about CSI Christ the King Church and our community</p>
         </div>
       </div>
 
@@ -15,15 +15,25 @@ const AboutUs: React.FC = () => {
         <div className="container">
           <div className="content-grid">
             <div className="main-content">
-              <p>Welcome to Grace Church, where we have been serving our community with love, faith, and dedication for 50 years. Our church family is united in our commitment to worship God, serve others, and grow together in faith.</p>
-              
-              <p>Since our founding in 1974, we have been blessed to witness countless lives transformed by the grace of God. Our congregation is a diverse and welcoming community where people from all walks of life come together to worship, learn, and serve.</p>
+              <p>Welcome to CSI Christ the King Church, a warm and welcoming Tamil-speaking congregation with a rich spiritual heritage. Since our founding on <strong>15th August 1975</strong>, we have been serving our community with love, faith, and dedication for over 50 years. Rooted in the love of Christ, our church family is committed to worship, fellowship, and service.</p>
               
               <h2>Our Church Family</h2>
-              <p>Grace Church is more than just a building - we are a family bound together by our shared faith and love for one another. Our congregation includes families, young professionals, students, and seniors, all working together to build God's kingdom here on earth.</p>
+              <p>We are a vibrant, medium-sized congregation of around 100 families, united in our mission to grow in Christ and serve with love. Our worship services include Holy Communion on the 2nd and 4th Sundays and Divine Worship on the 1st and 3rd Sundays of each month. Our church is open daily from 4:00 PM to 7:00 PM for personal prayer, offering a quiet space where all are welcome to find peace and experience God’s presence.</p>
               
-              <h2>Our Commitment</h2>
-              <p>We are committed to being a church that makes a difference in our community and beyond. Through our various ministries, outreach programs, and community partnerships, we strive to be the hands and feet of Jesus in our world.</p>
+              <h2>Our Ministries</h2>
+              <p>We are blessed with active and dedicated ministries that nurture faith and fellowship across all ages:</p>
+              <ul className='ministry-list'>
+                <li>Sunday School Ministry</li>
+                <li>Youth Fellowship Ministry</li>
+                <li>Women Fellowship Ministry</li>
+                <li>Senior Citizens’ Fellowship Ministry</li>
+                <li>Choir Ministry</li>
+              </ul>
+
+              <p>Through these ministries, we worship God faithfully, grow together spiritually, and serve others with compassion.</p>
+            
+              <h2>Our Invitation</h2>
+              <p>Whether you are new to the area or searching for a church family, we warmly invite you to join us on this journey of faith in Christ. Many who come here in faith leave with hearts uplifted and prayers answered. You are always welcome at CSI Christ the King Church.</p>
             </div>
             
             <div className="sidebar">

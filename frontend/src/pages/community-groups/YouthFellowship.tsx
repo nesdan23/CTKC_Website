@@ -41,7 +41,7 @@ const YouthFellowship: React.FC = () => {
               
               <div className="activity-card card">
                 <h3>Special Events</h3>
-                <p>Throughout the year, we organize retreats, camps, movie nights, and other special activities that strengthen bonds and create lasting memories.</p>
+                <p>Throughout the year, we organize retreats, camps, and other special activities that strengthen bonds and create lasting memories.</p>
               </div>
             </div>
 

@@ -21,9 +21,9 @@ const SundaySchool: React.FC = () => {
             <div className="classes-grid">
               <div className="class-card card">
                 <h3>Schedules</h3>
-                <p><strong>Time:</strong> 9:00 AM - 9:45 AM</p>
-                <p><strong>Location:</strong> Children's Wing, Rooms 1-3</p>
-                <p>Age-appropriate Bible stories, crafts, songs, and activities help young learners discover God's love in fun and engaging ways. Our experienced teachers create a safe, nurturing environment where children can ask questions and grow in their faith.</p>
+                <p><strong>Time:</strong> 8:30 AM onwards</p>
+                <p><strong>Location:</strong> Sunday School Hall</p>
+                <p>To meet the unique spiritual and learning needs of every age group, our Sunday school is organized into the following age-specific classes</p>
                 <ul>
                   <li>Tiny Tots: 2 - 3 years</li>
                   <li>Beginners: 4 - 5 years</li>

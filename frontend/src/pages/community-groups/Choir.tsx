@@ -90,24 +90,19 @@ const Choir: React.FC = () => {
               </div>
             </div>
             <h2>Rehearsals & Performances</h2>
-            <p>Our choir rehearses every Saturday at 4:00 PM in the church sanctuary. We perform during Sunday morning worship services and special events throughout the year, including Christmas and Easter celebrations.</p>
+            <p>Our choir rehearses every Saturday at 6:00 PM in the church sanctuary. We perform during Sunday morning worship services and special events throughout the year, including Christmas and Easter celebrations.</p>
             
             <h2>Musical Style</h2>
             <p>We perform a variety of musical styles including traditional hymns, contemporary Christian music, and classical sacred pieces. Our repertoire is chosen to complement our worship services and enhance the spiritual experience of our congregation.</p>
             
             <h2>No Audition Required</h2>
-            <p>We believe that every voice is a gift from God. No audition is required to join our choir - just a love for music and a desire to serve God through song. Our choir director works with singers of all abilities to help them grow and contribute to our musical ministry.</p>
+            <p>We believe that every voice is a gift from God. No audition is required to join our choir - just a love for music and a desire to serve God through song. Our choir in-charge works with singers of all abilities to help them grow and contribute to our musical ministry.</p>
             
             <h2>Special Performances</h2>
             <div className="performances-grid">
               <div className="performance-card card">
-                <h3>Christmas Concert</h3>
-                <p>Annual Christmas presentation featuring traditional carols and contemporary Christmas music.</p>
-              </div>
-              
-              <div className="performance-card card">
-                <h3>Easter Cantata</h3>
-                <p>Special Easter musical presentation celebrating the resurrection of Christ.</p>
+                <h3>Choir Sunday</h3>
+                <p>Special musical presentation celebrating the gift of music in worship.</p>
               </div>
               
               <div className="performance-card card">
@@ -115,9 +110,8 @@ const Choir: React.FC = () => {
                 <p>Special musical presentations for church anniversary and milestone celebrations.</p>
               </div>
             </div>
-            
-            <h2>Join Our Musical Ministry</h2>
-            <p>If you're interested in joining our choir, simply attend a Saturday rehearsal or speak with our choir director after Sunday service. We provide music and welcome new members throughout the year.</p>
+          
+            <p>If you're interested in joining our choir, simply attend a Saturday rehearsal or speak with our choir in-charge after Sunday service. We provide music and welcome new members throughout the year.</p>
           </div>
         </div>
       </section>

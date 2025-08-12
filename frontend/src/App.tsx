@@ -16,11 +16,11 @@ import CommunityGroups from './pages/CommunityGroups'
 import ContactUs from './pages/ContactUs'
 // import Gallery from './pages/Gallery'
 import History from './pages/History'
-import FormerPCMembers from './pages/history/FormerPCMembers'
+// import FormerPCMembers from './pages/history/FormerPCMembers'
 import FormerPresbyters from './pages/history/FormerPresbyters'
-import FormerSecretaries from './pages/history/FormerSecretaries'
-import FormerSextons from './pages/history/FormerSextons'
-import FormerTreasurers from './pages/history/FormerTreasurers'
+// import FormerSecretaries from './pages/history/FormerSecretaries'
+// import FormerSextons from './pages/history/FormerSextons'
+// import FormerTreasurers from './pages/history/FormerTreasurers'
 import HistoryOurChurch from './pages/history/OurChurch'
 import Home from './pages/Home'
 // import NewsAndEvents from './pages/NewsAndEvents'
@@ -43,10 +43,10 @@ function App() {
         <Route path="/history" element={<History />} />
         <Route path="/history/our-church" element={<HistoryOurChurch />} />
         <Route path="/history/former-presbyters" element={<FormerPresbyters />} />
-        <Route path="/history/former-secretaries" element={<FormerSecretaries />} />
+        {/* <Route path="/history/former-secretaries" element={<FormerSecretaries />} />
         <Route path="/history/former-treasurers" element={<FormerTreasurers />} />
         <Route path="/history/former-pc-members" element={<FormerPCMembers />} />
-        <Route path="/history/former-sextons" element={<FormerSextons />} />
+        <Route path="/history/former-sextons" element={<FormerSextons />} /> */}
         <Route path="/community-groups" element={<CommunityGroups />} />
         <Route path="/community-groups/sunday-school" element={<SundaySchool />} />
         <Route path="/community-groups/youth-fellowship" element={<YouthFellowship />} />

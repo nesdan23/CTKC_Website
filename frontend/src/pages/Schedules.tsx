@@ -94,7 +94,7 @@ const Schedules: React.FC = () => {
               <h2>Important Information</h2>
               <ul>
 
-                <li><strong>Contact:</strong> For questions about our services, call (555) 123-4567 or <Link to="/contact-us">click here.</Link></li>
+                <li><strong>Contact:</strong> For questions about our services <Link to="/contact-us"> click here.</Link></li>
               </ul>
             </div>
           </div>
