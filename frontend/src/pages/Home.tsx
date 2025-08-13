@@ -93,7 +93,7 @@ const Home: React.FC = () => {
             
             <div className="anniversary-stats">
               <div className="anniversary-logo">
-                <img src="/Clogo.png" alt="Church Logo" className="logo-img" />
+                <img src="/h1.png" alt="Church Logo" className="logo-img" />
               </div>
             </div>
           </div>
@@ -103,7 +103,7 @@ const Home: React.FC = () => {
       <style>{`
         .hero {
           position: relative;
-          min-height: 87vh;
+          min-height: 90.5vh;
           background: linear-gradient(135deg, #111111ff 0%, #5265AD 100%);
           display: flex;
           align-items: center;
@@ -281,15 +281,18 @@ const Home: React.FC = () => {
             min-height: 180px;
             background: #f8f9fa;
             border-radius: 12px;
-            padding: 2rem;
+            padding: 1.5rem;
+            max-width: 100%;
+            /* Make sure it fills the grid cell but doesn't overflow */
           }
 
           .logo-img {
-            max-width: 180px;
-            max-height: 120px;
-            width: auto;
+            max-width: 220px;
+            max-height: 180px;
+            width: 100%;
             height: auto;
             object-fit: contain;
+            display: block;
           }
             
           .anniversary-content {

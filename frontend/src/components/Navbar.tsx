@@ -25,7 +25,7 @@ const Navbar: React.FC = () => {
           <div className="nav-wrapper">
             <div className="logo">
               <Link to="/">
-                <img src="/public/Clogo.png" alt="Christ the King Church Logo" className="logo-image" />
+                <img src="/churchLogo-Photoroom.png" alt="Christ the King Church Logo" className="logo-image" />
                 {/* <span className="anniversary">50th Anniversary</span> */}
               </Link>
             </div>
@@ -166,22 +166,29 @@ const Navbar: React.FC = () => {
         }
 
         .nav-wrapper {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          padding: 1rem 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.5rem 0;
+            min-height: 64px;  
         }
 
         .logo a {
           display: flex;
-          flex-direction: column;
-          color: white;
-          text-decoration: none;
+          align-items: center;
+          height: 100%;
         }
 
         .logo-text {
           font-size: 1.5rem;
           font-weight: 700;
+        }
+          
+        .logo-image {
+          height: 48px;
+          max-height: 56px;
+          width: auto;
+          display: block;
         }
 
         .anniversary {

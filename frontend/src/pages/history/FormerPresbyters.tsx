@@ -7,35 +7,32 @@ const presbyters = [
   { name: "Rev. Solomon Gnanaraj", from: 1976, to: 1980 },
   { name: "Rev. S. Samuel", from: 1980, to: 1981 },
   { name: "Rev. Jaypal Daniel", from: 1981, to: 1982 },
-  { name: "Rev. Solomon Gnanaraj", from: 1982, to: 1982 },
   { name: "Rev. Vincent Rajkumar", from: 1982, to: 1983 },
   { name: "Rev. Jaypal Daniel", from: 1983, to: 1984 },
-  { name: "Rev. Henry", from: 1984, to: 1984 },
   { name: "Rev. DGS Rodricks", from: 1983, to: 1984 },
+  { name: "Rev. Henry", from: 1984, to: 1984 },
+  { name: "Rev. Vincent Rajakumar", from: 1984, to: 1985 },
   { name: "Rev. Barnabas", from: 1984, to: 1985 },
   { name: "Rev. Henry", from: 1985, to: 1986 },
-  { name: "Rev.J Jacob", from: 1986, to: 1990 },
+  { name: "Rev. J. Jacob", from: 1986, to: 1990 },
   { name: "Rev. Jayapal Chelliah", from: 1990, to: 1991 },
   { name: "Rev. DGS Rodricks", from: 1991, to: 1993 },
   { name: "Rev. David Rajan", from: 1993, to: 1997 },
   { name: "Rev. Joshua Inbakumar", from: 1997, to: 1999 },
-  { name: "Rev. JAD. Selwyn",from: 1999, to: 2001 },
+  { name: "Rev. J. A. D. Selwyn", from: 1999, to: 2001 },
   { name: "Rev. Solomon Gnanaraj", from: 2001, to: 2005 },
-  { name: "Rev. Victor Joshua", from: 2005, to: 2005 },
-  { name: "Rev. Robin Marshal (Deacon)", from: 2005, to: 2006 },
-  { name: "Rev. D M Baskaran", from: 2005, to: 2006 },
+  { name: "Rev. Robin Marshal", from: 2005, to: 2006 },
+  { name: "Rev. D. M. Baskaran", from: 2005, to: 2006 },
   { name: "Rev. Mohanraj", from: 2006, to: 2008 },
-  { name: "Rev. Jacob Ravinder", from:2008, to:2013 },
-  { name: "Rev. Christy Rajakumar", from:2013, to: 2015 },
-  { name: "Rev. Robinson (Deacon)" , from: 2015, to: 2016 },
-  { name: "Rev.J Jacob", from: 2018, to: 2021 },
-  { name: "Rev. Christy Rajakumar", from: 2020, to: 2021 },
-  { name: "Rev. Job Jayaraj (Retd)" },
-  { name: "Rev. Christy Gananadasan", from: 2021, to: 2021 },
+  { name: "Rev. Jacob Ravinder", from: 2008, to: 2013 },
+  { name: "Rev. Christy Rajakumar", from: 2013, to: 2021 },
+  { name: "Rev. Robinson", from: 2015, to: 2016 },
+  { name: "Rev. J. Jacob", from: 2018, to: 2020 },
+  { name: "Rev. Christy Gnanadasan", from: 2021, to: 2021 },
   { name: "Rev. Justin Yesudas", from: 2021, to: 2022 },
-  { name: "Rev. Princy Christopher", from: 2020, to: 2022 },
+  { name: "Rev. Princy Leoney", from: 2020, to: 2022 },
   { name: "Rev. Christopher Samuel", from: 2022, to: 2024 },
-  { name: "Rev. Cyndrilla Martin (Deaconess)", from: 2022, to: 2024 },
+  { name: "Rev. Cyndrilla Martin", from: 2022, to: 2023 },
   { name: "Rev. Soniya", from: 2023, to: 2024 },
   { name: "Rev. Vedamary Jayanesan", from: 2024, to: 2025 },
   { name: "Rev. Christy Gananadasan", from: 2025, to: "present" },
@@ -50,8 +47,8 @@ const FormerPresbyters: React.FC = () => {
     <>
       <div className="page-header">
         <div className="container">
-          <h1>Former Presbyters</h1>
-          <p className="page-subtitle">Honoring those who have served our congregation</p>
+          <h1>Former Presbyters & Deacons</h1>
+          <p className="page-subtitle">Honoring those who have served our congregation since 1975</p>
         </div>
       </div>
 
