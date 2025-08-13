@@ -173,11 +173,11 @@ a:hover {
         }
 
         .disabled-link1 {
-          color: #aaa;
+          color: #cacaca;
           pointer-events: none;
           cursor: not-allowed;
           text-decoration: none;
-          color: #2B2B2B;
+          color: #a6a5a5;
           padding: 0.75rem 1.5rem;
           display: block;
           border-bottom: 1px solid #f0f0f0;
